@@ -5,10 +5,13 @@
 </head>
 
 <body>
-    <div>
-        <input name='user' />
-        <button type='button' name='submit'>Enter</button>
-    </div>
+    <form>
+        <div style='margin-bottom: 11px;'>
+            <label for='username'>Username: </label>
+            <input type='text' name='username' id='username' />
+            <button type='button' name='submit'>Enter</button>
+        </div>
+    </form>
     <script type='text/javascript'>
         let body = document.querySelector('body');
         let header = document.createElement('header');
